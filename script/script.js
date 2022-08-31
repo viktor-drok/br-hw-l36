@@ -86,7 +86,7 @@ let circularProgress = document.querySelector('.total-rating-progress');
 
 let progressStartValue = 0;
 let progressEndValue = Math.round(Number(currentRating.innerHTML));
-let speed = 20;
+let speed = 500;
 
 let progress = setInterval(() => {
     progressStartValue++;
